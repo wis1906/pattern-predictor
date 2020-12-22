@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\EclSurf">
+      <UniqueIdentifier>{5bafa51b-a5e0-423e-874c-33e759f43758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\EclSurf">
+      <UniqueIdentifier>{af7520f4-47f0-4988-a7f2-5735c29fbe10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EclSurf\decompHomography.h">
+      <Filter>헤더 파일\EclSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="EclSurf\fasthessian.h">
+      <Filter>헤더 파일\EclSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="EclSurf\integral.h">
+      <Filter>헤더 파일\EclSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="EclSurf\ipoint.h">
+      <Filter>헤더 파일\EclSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="EclSurf\responselayer.h">
+      <Filter>헤더 파일\EclSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="EclSurf\surf.h">
+      <Filter>헤더 파일\EclSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="EclSurf\surflib.h">
+      <Filter>헤더 파일\EclSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="EclSurf\surfutils.h">
+      <Filter>헤더 파일\EclSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="FDetector.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Kalman.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="panoramaReader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EclSurf\decompHomography.cpp">
+      <Filter>소스 파일\EclSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="EclSurf\fasthessian.cpp">
+      <Filter>소스 파일\EclSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="EclSurf\integral.cpp">
+      <Filter>소스 파일\EclSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="EclSurf\ipoint.cpp">
+      <Filter>소스 파일\EclSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="EclSurf\responselayer.cpp">
+      <Filter>소스 파일\EclSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="EclSurf\surf.cpp">
+      <Filter>소스 파일\EclSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="EclSurf\surflib.cpp">
+      <Filter>소스 파일\EclSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="EclSurf\surfutils.cpp">
+      <Filter>소스 파일\EclSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="FDetector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Kalman.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="panoramaReader.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
