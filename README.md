@@ -4,8 +4,9 @@ Pattern predictor in cubemap video environment
 
 This is pattern tracking system for cubemap video environment.
 
-
-<img src="https://user-images.githubusercontent.com/32832618/102872580-3d03dd00-4483-11eb-8bc7-409950612e75.png"  width="700">
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/32832618/102872580-3d03dd00-4483-11eb-8bc7-409950612e75.png"  width="700">
+</div>
 
 
 
